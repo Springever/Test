@@ -1,0 +1,446 @@
+[
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_music_normal.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\actionbar_music_normal.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_discover_normal.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\actionbar_discover_normal.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_17.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_17.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_time.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_time.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_03.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_03.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_bg.9.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\btn_gray_bg.9.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\update_item_line.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\update_item_line.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_skin.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_skin.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_friends_selected.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\actionbar_friends_selected.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_night.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_night.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_discover_selected.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\actionbar_discover_selected.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_progress_bg.9.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\btn_gray_progress_bg.9.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ptr_refreshing_drawable.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\ptr_refreshing_drawable.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_search.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\actionbar_search.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_20.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_20.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_available_connection.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\no_available_connection.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_04.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_04.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_icn_artist.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\lay_icn_artist.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_18.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_18.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_21.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_21.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_16.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_16.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_05.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_05.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_02.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_02.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_free.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_free.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\update_folder_up_bg.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\update_folder_up_bg.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_14.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_14.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_23.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_23.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\update_item_white_bg.9.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\update_item_white_bg.9.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_01.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_01.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_ptr_rotate.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opmenu_icn_msg.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\opmenu_icn_msg.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notifycation_small_icon.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\notifycation_small_icon.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\detail_default_icon.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\detail_default_icon.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_progress_bg.9.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\btn_green_progress_bg.9.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\update_folder_down_bg.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\update_folder_down_bg.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_friends_normal.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\actionbar_friends_normal.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_music_selected.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\actionbar_music_selected.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_11.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_11.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_vehicle.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_vehicle.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_menu.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\actionbar_menu.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\update_item_gray_bg.9.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\update_item_gray_bg.9.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_bg.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\btn_green_bg.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_08.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_08.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_arrow.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_app_icon.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\default_app_icon.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_12.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_12.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_07.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_07.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_10.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_10.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_13.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_13.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ptr_pull_to_refresh_icon.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\ptr_pull_to_refresh_icon.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_member.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_member.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_checkbox_normal.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\dialog_checkbox_normal.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ptr_refreshing.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\ptr_refreshing.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_06.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_06.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_identify.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_identify.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_ptr_flip.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_00.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_00.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_checkbox_checked.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\dialog_checkbox_checked.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_19.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_19.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_15.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_15.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_clock.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_clock.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\topmenu_icn_store.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\topmenu_icn_store.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\discover_icn_apply.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\discover_icn_apply.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_09.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_09.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_22.png",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_22.png"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_anim.xml",
+        "source": "D:\\software\\Android\\AndroidStudioProjects\\Test\\app\\src\\main\\res\\drawable\\loading_anim.xml"
+    }
+]

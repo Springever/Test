@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-native-viewpager": "^0.2.13",
+    "react-navigation": "^1.0.0-beta.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Springever/Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Springever/Test/issues"
+  },
+  "homepage": "https://github.com/Springever/Test#readme"
+}

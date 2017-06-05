@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="list_view_margin_top">8dp</dimen>
+    <dimen name="list_view_margin_bottom">8dp</dimen>
+
+    <dimen name="common_item_two_column_height">98.5dip</dimen>
+    <dimen name="common_item_one_column_height">71dip</dimen>
+    <dimen name="common_item_title_margin_left">10.5dip</dimen>
+    <dimen name="common_item_title_margin_top">10dip</dimen>
+    <dimen name="common_item_icon_margin_left">8dip</dimen>
+    <dimen name="common_item_icon_margin_right">8dip</dimen>
+    <dimen name="common_item_icon_size">48dp</dimen>
+    <dimen name="common_bar_height">33dip</dimen>
+    <dimen name="common_list_marginx">8dip</dimen>
+    <dimen name="common_divideline_margin">16dip</dimen>
+    <dimen name="common_button_text_size">10.67sp</dimen>
+    <dimen name="common_button_corner_text_size">10.6sp</dimen>
+    <dimen name="common_button_rect_width">56dip</dimen>
+    <dimen name="common_button_rect_height">24dip</dimen>
+    <dimen name="manage_common_button_rect_height">32dip</dimen>
+    <dimen name="common_item_title_text_size">16sp</dimen>
+    <dimen name="common_item_desc_text_size">12.67sp</dimen>
+    <dimen name="list_item_rank_app_item_height">89.33dp</dimen>
+    <dimen name="list_item_rank_app_item_icon_size">42.6dp</dimen>
+    <dimen name="list_item_rank_app_item_content_margin_left">6dp</dimen>
+    <dimen name="list_item_rank_app_item_content_margin_right">6dp</dimen>
+    <dimen name="list_item_rank_app_item_icon_margin_right">10dp</dimen>
+    <dimen name="list_item_rank_app_item_text_margin_left">2.67dp</dimen>
+    <dimen name="list_item_rank_app_item_text_margin_top">2dp</dimen>
+    <dimen name="list_item_rank_app_item_label_text_size">16sp</dimen>
+    <dimen name="list_item_rank_app_item_desc_text_size">9.33sp</dimen>
+    <dimen name="list_item_rank_app_item_button_width">62.67dp</dimen>
+    <dimen name="list_item_rank_app_item_button_height">21.33dp</dimen>
+    <dimen name="list_item_rank_app_item_button_margin_top">4dp</dimen>
+    <dimen name="list_item_rank_app_item_button_wrapper_padding">4dp</dimen>
+    <dimen name="round_image_view_radius">2.67dp</dimen>
+    <dimen name="loading_view_drawable_padding">13.33dp</dimen>
+    <dimen name="loading_view_text_size">14.67sp</dimen>
+    <dimen name="failed_layout_result_text_size">17.33sp</dimen>
+    <dimen name="failed_layout_tip_text_size">12sp</dimen>
+    <dimen name="failed_layout_tip_margin_top">80dp</dimen>
+    <dimen name="failed_layout_tip_button_width">138.67dp</dimen>
+    <dimen name="failed_layout_tip_button_height">30.67dp</dimen>
+    <dimen name="failed_tip_button_margin_top">10dp</dimen>
+    <dimen name="lite_item_update_group_height">27.5dp</dimen>
+    <dimen name="common_bar_text_size">16sp</dimen>
+    <dimen name="update_list_item_height">70dip</dimen>
+    <dimen name="list_view_divider_height">1px</dimen>
+    <dimen name="list_item_update_info_arrow_padding">8dp</dimen>
+    <dimen name="notification_icon_margin_left">4.6dip</dimen>
+    <dimen name="notification_icon_margin_right">6dip</dimen>
+    <!-- 推送 -->
+    <dimen name="notication_icon_width">22dip</dimen>
+    <dimen name="notication_icon_height">22dip</dimen>
+    <dimen name="notication_icon_margin">10dip</dimen>
+    <dimen name="setting_activity_exit_button_width">284.67dp</dimen>
+    <dimen name="setting_activity_exit_button_height">36dp</dimen>
+</resources>

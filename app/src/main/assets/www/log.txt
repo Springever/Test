@@ -1,0 +1,41 @@
+03-06 10:01:31.472: E/SMD(7988): smd Interface open failed errno is 2 -1
+03-06 10:01:31.712: I/SDP.PUB_CRYPTOD(8022): Starting 
+03-06 10:01:31.712: I/SDP.PUB_CRYPTOD(8022): Socket created with fd:-1
+03-06 10:01:31.712: E/SDP.PUB_CRYPTOD(8022): Failed to open the netlink socket with error: Protocol not supported 
+03-06 10:01:31.712: E/SDP.PUB_CRYPTOD(8022): Exiting 
+03-06 10:01:32.202: I/MotionRecognitionService(2968): Plugged
+03-06 10:01:32.202: I/MotionRecognitionService(2968): setPowerConnected  = true
+03-06 10:01:32.472: E/SMD(7988): smd Interface open failed errno is 2 -1
+03-06 10:01:33.472: E/SMD(7988): smd Interface open failed errno is 2 -1
+03-06 10:01:34.347: I/InputReader(2968): Touch event's action is 0x0 (deviceType=0) [pCnt=1, s=0.56 ] when=237327788043000
+03-06 10:01:34.347: I/InputDispatcher(2968): Delivering touch to (3240): action: 0x4, toolType: 1
+03-06 10:01:34.347: I/InputDispatcher(2968): Delivering touch to (4018): action: 0x4, toolType: 1
+03-06 10:01:34.347: I/InputDispatcher(2968): Delivering touch to (7453): action: 0x0, toolType: 1
+03-06 10:01:34.427: I/InputReader(2968): Touch event's action is 0x1 (deviceType=0) [pCnt=1, s=] when=237327871117000
+03-06 10:01:34.427: I/InputDispatcher(2968): Delivering touch to (7453): action: 0x1, toolType: 1
+03-06 10:01:34.427: I/AudioPolicyManager(2335): getAudioPolicyConfig: situation=1;device=0
+03-06 10:01:34.427: I/AudioPolicyManager(2335): getSituationVolume: isBTConnected:0 isHeadConnected:0
+03-06 10:01:34.432: W/AudioPolicyIntefaceImpl(2335): Skipped to add effects on session 59
+03-06 10:01:34.432: I/AudioHardwareTinyALSA(2335): AudioStreamOutALSA::write setDevice
+03-06 10:01:34.432: I/AudioHardwareTinyALSA(2335): OutALSA::setDevice: mHandle NULL mode[0], Device[00000002] nDevice:3 
+03-06 10:01:34.432: I/AudioHardwareTinyALSA(2335): Open:+ mDefaults->direction=0 device=3
+03-06 10:01:34.437: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.437: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.442: I/chromium(7453): [INFO:CONSOLE(0)] "Not allowed to load local resource: file:///android_asset/webkit/android-weberror.png", source: data:text/html,chromewebdata (0)
+03-06 10:01:34.452: I/AudioHardwareTinyALSA(2335): Open:- mDefaults->direction=0, open_direction=8 device=3 mHandle: b1c170c0
+03-06 10:01:34.452: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.457: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.457: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.462: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.467: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.467: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.472: E/SMD(7988): smd Interface open failed errno is 2 -1
+03-06 10:01:34.472: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.477: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.477: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.482: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.482: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.482: W/BindingManager(7453): Cannot call determinedVisibility() - never saw a connection for the pid: 7453
+03-06 10:01:34.487: I/chromium(7453): [INFO:CONSOLE(0)] "Not allowed to load local resource: file:///android_asset/webkit/android-weberror.png", source: data:text/html,chromewebdata (0)
+03-06 10:01:35.472: E/SMD(7988): smd Interface open failed errno is 2 -1
+03-06 10:01:36.472: E/SMD(7988): smd Interface open failed errno is 2 -1

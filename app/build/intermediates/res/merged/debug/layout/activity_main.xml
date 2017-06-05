@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/main_thread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UI主线程" />
+
+            <TextView
+                android:id="@+id/sub_thread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UI主线程中直接建立子线程" />
+
+            <TextView
+                android:id="@+id/sub_thread_thread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UI主线程中直接建立子线程的子线程" />
+
+            <TextView
+                android:id="@+id/click_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="直接更新UI线程" />
+
+            <TextView
+                android:id="@+id/click_subclass_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="直接建立子类更新UI线程并且跳出子窗口" />
+
+            <TextView
+                android:id="@+id/click_thread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击，直接建立子线程" />
+
+            <TextView
+                android:id="@+id/click_subclass_thread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击，建立子类，子类中建立子线程" />
+
+            <Button
+                android:id="@+id/click_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击，直接更新UI线程" />
+
+            <Button
+                android:id="@+id/click_subclass_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击，直接建立子类更新UI线程并且跳出子窗口" />
+
+            <Button
+                android:id="@+id/click_thread_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击，直接建立子线程" />
+
+            <Button
+                android:id="@+id/click_subclass_thread_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击，建立子类，子类中建立子线程" />
+
+            <Button
+                android:id="@+id/click_windowManager_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击，建立子窗口" />
+
+            <Button
+                android:id="@+id/start_handlerExample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动handlerExample" />
+
+            <Button
+                android:id="@+id/start_lifeCycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动LifeCycle" />
+
+            <Button
+                android:id="@+id/start_webView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动WebView" />
+
+            <Button
+                android:id="@+id/start_adapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动AdapterActivity" />
+
+            <Button
+                android:id="@+id/start_rx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动Rx系列" />
+
+            <Button
+                android:id="@+id/start_pullToRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动PullToRefreshActivity" />
+
+            <Button
+                android:id="@+id/start_expandListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动ExpandListViewActivity" />
+
+            <Button
+                android:id="@+id/start_ReactNativeActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动ReactNativeActivity" />
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>

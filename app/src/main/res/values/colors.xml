@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_layout_bg">#ffffff</color>
+    <color name="common_item_title_text_color">#585858</color>
+    <color name="common_item_desc_text_color">#999999</color>
+    <color name="green_bg_text_color">#3fc6a8</color>
+    <color name="common_divider_color">#d7d7d7</color>
+    <color name="list_item_label_text_color">#585858</color>
+    <color name="loading_view_text_color">#585858</color>
+    <color name="failed_layout_result_text_color">#585858</color>
+    <color name="failed_layout_tip_text_color">#999999</color>
+    <color name="list_item_down_app_button_text_color">#000000</color>
+    <color name="update_item_import_change">#ffbb33</color>
+    <color name="list_item_update_info_text_color">#585858</color>
+    <color name="list_item_rank_app_item_button_text_color">#3fc6a8</color>
+    <color name="dialog_title_text_color">#000000</color>
+    <color name="gray_bg_text_color">#000000</color>
+</resources>

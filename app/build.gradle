@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:25.0.0'
+    compile files('libs/commons-lang.jar')
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    //compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile files('libs/rxbinding-0.3.0.jar')
+    compile files('libs/rxbinding-appcompat-v7-0.3.0.jar')
+    compile files('libs/rxbinding-design-0.3.0.jar')
+    compile files('libs/rxbinding-recyclerview-v7-0.3.0-sources.jar')
+    compile files('libs/rxbinding-support-v4-0.3.0.jar')
+    compile files('libs/android-async-http-1.4.9.jar')
+    compile files('libs/apk-merge-0.0.1-SNAPSHOT.jar')
+    compile 'com.android.support:design:25.1.0'
+    //compile 'com.android.support:percent:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'io.reactivex:rxandroid:1.0.1'
+    compile ('com.facebook.react:react-native:+')
+    //compile(name:'react-native-0.44.0', ext:'aar')
+    // From node_modules
+    //compile("com.tencent.tinker:tinker-android-lib:${TINKER_VERSION}") { changing = true }
+    //provided("com.tencent.tinker:tinker-android-anno:${TINKER_VERSION}") { changing = true }
+    //compile 'com.facebook.react:react-native:0.20.1'
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets']
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}

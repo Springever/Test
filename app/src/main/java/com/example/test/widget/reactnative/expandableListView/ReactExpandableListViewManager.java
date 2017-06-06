@@ -74,7 +74,7 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
 
     @Override
     protected ExpandableListView createViewInstance(ThemedReactContext reactContext) {
-        expandableListView =new ExpandableListView(reactContext);
+        expandableListView =new ReactExpandableListView(reactContext);
         mUpdateAdapter = new ExpandableListAdapter(reactContext);
         mUpdateAdapter.registerCallback(this);//注册回调函数
         expandableListView.setAdapter(mUpdateAdapter);

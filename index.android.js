@@ -231,7 +231,7 @@ class SubScreen extends React.Component {
   };
 
   render() {
-    height=height-300;
+    height=height-500;
     return (
         <View>
             <Text>Alert测试</Text>

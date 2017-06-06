@@ -233,7 +233,7 @@ class SubScreen extends React.Component {
             <Text>Alert测试</Text>
             <AlertCustom />
             <Text>ExpandableListView测试</Text>
-            <ExpandableListView style={{width:900,height:900,}} layoutWidth={900} layoutHeight={900} />
+            <ExpandableListView style={{width:400,height:900,}} layoutWidth={900} layoutHeight={900} />
         </View>
     );
   }

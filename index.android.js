@@ -7,6 +7,7 @@ import {
   View,
   Button,
   StyleSheet,
+  Dimensions,
 } from 'react-native';
 
 import {
@@ -35,6 +36,8 @@ const WebViewCustom = require('./android/lib/WebViewCustom').WebViewCustom;
 var ViewPagerModule = require('./android/lib/ViewPagerModule');
 var AlertCustom = require('./android/lib/AlertCustom').SimpleAlertExampleBlock;
 var ExpandableListView = require('./android/lib/ExpandableListView');
+
+const {width, height} = Dimensions.get('window');
 
 class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -228,12 +231,13 @@ class SubScreen extends React.Component {
   };
 
   render() {
+    height=height-300;
     return (
         <View>
             <Text>Alert测试</Text>
-            <AlertCustom />
+            <AlertCustom style={{flex:1,}}/>
             <Text>ExpandableListView测试</Text>
-            <ExpandableListView style={{width:400,height:900,}} layoutWidth={900} layoutHeight={900} />
+            <ExpandableListView style={{width:width,height:height,alignItems:"flex-end"}} layoutWidth={900} layoutHeight={900} />
         </View>
     );
   }

@@ -10,7 +10,7 @@ import com.facebook.react.uimanager.events.RCTEventEmitter;
 
 public class ReactExpandListViewEvent extends Event<ReactExpandListViewEvent> {
 
-    public static final String EVENT_NAME = "topMessage";
+    public static final String EVENT_NAME = "topExpandListViewClick";
 
     private WritableMap mEventData;
 

@@ -9,7 +9,7 @@ import android.provider.Settings;
 import android.view.KeyEvent;
 
 import com.example.test.BuildConfig;
-import com.example.test.widget.reactnative.expandableListView.ExpandableReactPackage;
+import com.example.test.widget.reactnative.SelfWidgetReactPackage;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactRootView;
 import com.facebook.react.common.LifecycleState;
@@ -44,7 +44,7 @@ public class ReactNativeActivity extends Activity implements DefaultHardwareBack
                 .setBundleAssetName("index.android.bundle")
                 .setJSMainModuleName("index.android")
                 .addPackage(new MainReactPackage())
-                .addPackage(new ExpandableReactPackage())
+                .addPackage(new SelfWidgetReactPackage())
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();

@@ -15,6 +15,7 @@ import com.example.test.common.Constants;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReadableArray;
+import com.facebook.react.bridge.UiThreadUtil;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.common.MapBuilder;
 import com.facebook.react.module.annotations.ReactModule;
@@ -61,6 +62,8 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
 
     private Activity activity;
 
+    private ThemedReactContext reactContext;
+
     private static final String NAME_ENTITIES = "entities";
 
     private static String PREF_IGNORE = "ignore";
@@ -101,6 +104,7 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
         expandableListView.expandGroup(ExpandableListAdapter.GROUP_UPDATE);//触发展开
         expandableListView.expandGroup(ExpandableListAdapter.GROUP_IGNORE);//触发展开
         activity = reactContext.getCurrentActivity();
+        this.reactContext = reactContext;
         showData();
         return expandableListView;
     }
@@ -353,10 +357,6 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
         showData();
     }
 
-    public void emitExpandListViewEvent(ExpandableListView expandListView) {
-        dispatchEvent(expandableListView, new ReactExpandListViewEvent(expandListView.getId(), createExpandListViewEvent(expandListView)));
-    }
-
     //组装发送到js的数据
     private WritableMap createExpandListViewEvent(ExpandableListView expandListView) {
         WritableMap event = Arguments.createMap();
@@ -367,6 +367,10 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
         return event;
     }
 
+    public void emitExpandListViewEvent(ExpandableListView expandListView) {
+        dispatchEvent(expandableListView, new ReactExpandListViewEvent(expandListView.getId(), createExpandListViewEvent(expandListView)));
+    }
+
     //发送事件到js
     private static void dispatchEvent(ExpandableListView expandableListView, Event event) {
         ReactContext reactContext = (ReactContext) expandableListView.getContext();
@@ -375,21 +379,37 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
         eventDispatcher.dispatchEvent(event);
     }
 
+    //注册事件（ReactExpandListViewEvent）
+    @Override
+    public Map<String, Object> getExportedCustomDirectEventTypeConstants() {
+        return MapBuilder.<String, Object>builder()
+                .put("topExpandListViewClick", MapBuilder.of("registrationName", "onExpandListViewClick"))
+                .build();
+    }
+
+    //注册命令
     @Override
     public @Nullable
     Map<String, Integer> getCommandsMap() {
         return MapBuilder.of(
-                "goBack", COMMAND_GO_BACK,
-                "postMessage", COMMAND_POST_MESSAGE,
-                "injectJavaScript", COMMAND_INJECT_JAVASCRIPT
+                "goExpand", COMMAND_GO_BACK,
+                "postMessageExpand", COMMAND_POST_MESSAGE,
+                "injectJavaScriptExpand", COMMAND_INJECT_JAVASCRIPT
         );
     }
 
+    //接收命令；js通过命令来操作(比如ReactNative页面上有个
+    // 前进按钮点击后可以触发这些命令）
     @Override
     public void receiveCommand(ExpandableListView root, int commandId, @Nullable ReadableArray args) {
         switch (commandId) {
             case COMMAND_GO_BACK:
-                Toast.makeText(activity,"hello",Toast.LENGTH_SHORT);
+                UiThreadUtil.runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(activity, "hello", Toast.LENGTH_SHORT).show();
+                    }
+                });
                 break;
             case COMMAND_POST_MESSAGE:
                 try {

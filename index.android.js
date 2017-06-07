@@ -18,6 +18,7 @@ import {
 
 import CustomViewPager from './android/lib/CustomViewPager';
 import ViewPagerInAndroid from './android/lib/ViewPagerInAndroid';
+import ToastTest from './android/lib/ToastTest';
 
 const PickerCustom = require('./android/lib/PickerCustom').PickerCustom;
 const PickerWidget = require('./android/lib/PickerCustom').PickerWidget;
@@ -37,6 +38,7 @@ var ViewPagerModule = require('./android/lib/ViewPagerModule');
 var AlertCustom = require('./android/lib/AlertCustom').SimpleAlertExampleBlock;
 var ExpandableListView = require('./android/lib/ExpandableListView');
 
+var RCT_EXPANDABLELISTVIEW_REF = 'expandableListView';
 const {width, height} = Dimensions.get('window');
 
 class HomeScreen extends React.Component {
@@ -229,15 +231,33 @@ class SubScreen extends React.Component {
       />
     ),
   };
+  goExpand = () => {
+    this.refs[RCT_EXPANDABLELISTVIEW_REF].goExpand();
+  };
 
+  postMessageExpand = () => {
+    this.refs[RCT_EXPANDABLELISTVIEW_REF].postMessageExpand();
+  };
+
+  injectJavaScriptExpand = () => {
+    this.refs[RCT_EXPANDABLELISTVIEW_REF].injectJavaScriptExpand();
+  };
+
+  showToastTest = ()=>{
+    ToastTest.show('Hello ToastTest', ToastTest.SHORT);
+  }
   render() {
     height=height-500;
     return (
         <View>
-            <Text>Alert测试</Text>
+            <Text onPress={this.showToastTest}>Alert测试</Text>
             <AlertCustom style={{flex:1,}}/>
-            <Text>ExpandableListView测试</Text>
-            <ExpandableListView style={{width:width,height:height,alignItems:"flex-end"}} layoutWidth={900} layoutHeight={900} />
+            <Text onPress={this.goExpand}>ExpandableListView测试</Text>
+            <ExpandableListView
+                ref={RCT_EXPANDABLELISTVIEW_REF}
+                style={{width:width,height:height,alignItems:"flex-end"}}
+                layoutWidth={900}
+                layoutHeight={900} />
         </View>
     );
   }

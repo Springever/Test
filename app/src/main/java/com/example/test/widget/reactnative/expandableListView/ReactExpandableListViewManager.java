@@ -7,14 +7,23 @@ import android.graphics.Color;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.ExpandableListView;
+import android.widget.Toast;
 
 import com.example.test.adapter.ExpandableListAdapter;
 import com.example.test.bean.AppUpdate;
 import com.example.test.common.Constants;
+import com.facebook.react.bridge.Arguments;
+import com.facebook.react.bridge.ReactContext;
+import com.facebook.react.bridge.ReadableArray;
+import com.facebook.react.bridge.WritableMap;
+import com.facebook.react.common.MapBuilder;
 import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
+import com.facebook.react.uimanager.UIManagerModule;
 import com.facebook.react.uimanager.annotations.ReactProp;
+import com.facebook.react.uimanager.events.Event;
+import com.facebook.react.uimanager.events.EventDispatcher;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -25,7 +34,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+
+import javax.annotation.Nullable;
 
 import rx.Observable;
 import rx.Observer;
@@ -63,7 +75,13 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
 
     public List<AppUpdate> mIgnores = new ArrayList<AppUpdate>();
 
-    public ReactExpandableListViewManager(){
+    public static final int COMMAND_GO_BACK = 1;
+
+    public static final int COMMAND_POST_MESSAGE = 5;
+
+    public static final int COMMAND_INJECT_JAVASCRIPT = 6;
+
+    public ReactExpandableListViewManager() {
 
     }
 
@@ -74,7 +92,7 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
 
     @Override
     protected ExpandableListView createViewInstance(ThemedReactContext reactContext) {
-        expandableListView =new ReactExpandableListView(reactContext);
+        expandableListView = new ReactExpandableListView(reactContext);
         mUpdateAdapter = new ExpandableListAdapter(reactContext);
         mUpdateAdapter.registerCallback(this);//注册回调函数
         expandableListView.setAdapter(mUpdateAdapter);
@@ -96,7 +114,6 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
     public void setLayoutHeight(ExpandableListView view, int layoutHeight) {
 
     }
-
 
     public void showData() {
         final Thread t = Thread.currentThread();
@@ -308,9 +325,11 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
         ret.put(JSON_IGNOREAPPITEMS, array);
         return ret;
     }
+
     @Override
     public void onUpdate(ExpandableListAdapter.UpdateInfoHolder updateInfo) {//更新
         Log.d(TAG, "onUpdate");
+        emitExpandListViewEvent(expandableListView);
     }
 
     @Override
@@ -332,5 +351,71 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
         SharedPreferences pref = activity.getSharedPreferences(Constants.PREF_IGNORE, 0);
         pref.edit().remove(item.mPackageName).commit();
         showData();
+    }
+
+    public void emitExpandListViewEvent(ExpandableListView expandListView) {
+        dispatchEvent(expandableListView, new ReactExpandListViewEvent(expandListView.getId(), createExpandListViewEvent(expandListView)));
+    }
+
+    //组装发送到js的数据
+    private WritableMap createExpandListViewEvent(ExpandableListView expandListView) {
+        WritableMap event = Arguments.createMap();
+        event.putDouble("target", 2222222);
+        event.putString("url", "22222");
+        event.putBoolean("loading", true);
+        event.putDouble("width", expandListView.getWidth());
+        return event;
+    }
+
+    //发送事件到js
+    private static void dispatchEvent(ExpandableListView expandableListView, Event event) {
+        ReactContext reactContext = (ReactContext) expandableListView.getContext();
+        EventDispatcher eventDispatcher =
+                reactContext.getNativeModule(UIManagerModule.class).getEventDispatcher();
+        eventDispatcher.dispatchEvent(event);
+    }
+
+    @Override
+    public @Nullable
+    Map<String, Integer> getCommandsMap() {
+        return MapBuilder.of(
+                "goBack", COMMAND_GO_BACK,
+                "postMessage", COMMAND_POST_MESSAGE,
+                "injectJavaScript", COMMAND_INJECT_JAVASCRIPT
+        );
+    }
+
+    @Override
+    public void receiveCommand(ExpandableListView root, int commandId, @Nullable ReadableArray args) {
+        switch (commandId) {
+            case COMMAND_GO_BACK:
+                Toast.makeText(activity,"hello",Toast.LENGTH_SHORT);
+                break;
+            case COMMAND_POST_MESSAGE:
+                try {
+                    JSONObject eventInitDict = new JSONObject();
+                    eventInitDict.put("data", args.getString(0));
+                    Toast.makeText(activity,eventInitDict.toString(),Toast.LENGTH_SHORT);
+                    /*
+                    root.loadUrl("javascript:(function () {" +
+                            "var event;" +
+                            "var data = " + eventInitDict.toString() + ";" +
+                            "try {" +
+                            "event = new MessageEvent('message', data);" +
+                            "} catch (e) {" +
+                            "event = document.createEvent('MessageEvent');" +
+                            "event.initMessageEvent('message', true, true, data.data, data.origin, data.lastEventId, data.source);" +
+                            "}" +
+                            "document.dispatchEvent(event);" +
+                            "})();");
+                            */
+                } catch (JSONException e) {
+                    throw new RuntimeException(e);
+                }
+                break;
+            case COMMAND_INJECT_JAVASCRIPT:
+                //root.loadUrl("javascript:" + args.getString(0));
+                break;
+        }
     }
 }

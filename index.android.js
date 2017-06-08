@@ -245,9 +245,19 @@ class SubScreen extends React.Component {
 
   showToastTest = ()=>{
     ToastTest.show('Hello ToastTest', ToastTest.SHORT);
-  }
+  };
+
+  onNavigationStateChange = (navState) => {
+    this.setState({
+      target: navState.target,
+      width: navState.width,
+      url: navState.url,
+      status: navState.title,
+      loading: navState.loading,
+    });
+  };
+
   render() {
-    height=height-500;
     return (
         <View>
             <Text onPress={this.showToastTest}>Alert测试</Text>
@@ -255,9 +265,11 @@ class SubScreen extends React.Component {
             <Text onPress={this.goExpand}>ExpandableListView测试</Text>
             <ExpandableListView
                 ref={RCT_EXPANDABLELISTVIEW_REF}
-                style={{width:width,height:height,alignItems:"flex-end"}}
+                style={{width:width,height:height-500,alignItems:"flex-end"}}
                 layoutWidth={900}
-                layoutHeight={900} />
+                layoutHeight={900}
+                onNavigationStateChange={this.onNavigationStateChange}
+            />
         </View>
     );
   }

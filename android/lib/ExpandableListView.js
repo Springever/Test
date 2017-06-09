@@ -39,7 +39,6 @@ class ExpandableListView extends React.Component {
   }
 
   goExpand = () => {
-    //console.log("1111");
     UIManager.dispatchViewManagerCommand(
       this.getExpandableListViewHandle(),
       UIManager.RCTExpandableListView.Commands.goExpand,

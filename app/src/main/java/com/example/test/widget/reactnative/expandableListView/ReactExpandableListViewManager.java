@@ -13,6 +13,7 @@ import com.example.test.adapter.ExpandableListAdapter;
 import com.example.test.bean.AppUpdate;
 import com.example.test.common.Constants;
 import com.facebook.react.bridge.Arguments;
+import com.facebook.react.bridge.LifecycleEventListener;
 import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.UiThreadUtil;
@@ -50,7 +51,7 @@ import rx.schedulers.Schedulers;
  * Created by Springever on 2017/5/18.
  */
 @ReactModule(name = ReactExpandableListViewManager.REACT_CLASS)
-public class ReactExpandableListViewManager extends SimpleViewManager<ExpandableListView> implements ExpandableListAdapter.Callback {
+public class ReactExpandableListViewManager extends SimpleViewManager<ExpandableListView> implements ExpandableListAdapter.Callback,LifecycleEventListener {
 
     private final static String TAG = "ReactExpandableListViewManager";
 
@@ -437,5 +438,29 @@ public class ReactExpandableListViewManager extends SimpleViewManager<Expandable
                 //root.loadUrl("javascript:" + args.getString(0));
                 break;
         }
+    }
+
+    //注销时调用
+    @Override
+    public void onDropViewInstance(ExpandableListView expandListView) {
+        super.onDropViewInstance(expandListView);
+    }
+
+    //侦听Activity的onResume
+    @Override
+    public void onHostResume() {
+
+    }
+
+    //侦听Activity的onPause
+    @Override
+    public void onHostPause() {
+
+    }
+
+    //侦听Activity的onDestroy
+    @Override
+    public void onHostDestroy() {
+
     }
 }

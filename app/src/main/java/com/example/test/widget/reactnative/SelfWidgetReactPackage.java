@@ -1,6 +1,7 @@
 package com.example.test.widget.reactnative;
 
 import com.example.test.widget.reactnative.expandableListView.ReactExpandableListViewManager;
+import com.example.test.widget.reactnative.imagePicker.ImagePickerTest;
 import com.example.test.widget.reactnative.toast.ToastTest;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -24,6 +25,7 @@ public class SelfWidgetReactPackage implements ReactPackage {
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new ToastTest(reactContext));
+        modules.add(new ImagePickerTest(reactContext));
         return modules;
     }
 

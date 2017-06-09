@@ -19,6 +19,7 @@ import {
 import CustomViewPager from './android/lib/CustomViewPager';
 import ViewPagerInAndroid from './android/lib/ViewPagerInAndroid';
 import ToastTest from './android/lib/ToastTest';
+import ImagePickerTest from './android/lib/ImagePickerTest';
 
 const PickerCustom = require('./android/lib/PickerCustom').PickerCustom;
 const PickerWidget = require('./android/lib/PickerCustom').PickerWidget;

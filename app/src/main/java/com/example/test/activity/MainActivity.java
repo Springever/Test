@@ -52,9 +52,11 @@ public class MainActivity extends Activity {
 
     private Button start_pullToRefresh = null;
 
-    private Button start_expandListView =null;
+    private Button start_expandListView = null;
 
-    private Button start_myReactActivity =null;
+    private Button start_myReactActivity = null;
+
+    private Button start_JsoupActivity = null;
 
     private static String TAG = "com.example.test";
 
@@ -87,6 +89,7 @@ public class MainActivity extends Activity {
         start_pullToRefresh = (Button) findViewById(R.id.start_pullToRefresh);
         start_expandListView = (Button) findViewById(R.id.start_expandListView);
         start_myReactActivity = (Button) findViewById(R.id.start_ReactNativeActivity);
+        start_JsoupActivity = (Button) findViewById(R.id.start_JsoupActivity);
         new Thread(new Runnable() {
 
             @Override
@@ -237,6 +240,13 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View arg0) {
                 startActivity(new Intent(MainActivity.this, ReactNativeActivity.class));
+            }
+        });
+        start_JsoupActivity.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(MainActivity.this, JsoupActivity.class));
             }
         });
     }

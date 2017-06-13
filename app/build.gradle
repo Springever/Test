@@ -18,8 +18,10 @@ dependencies {
     compile 'com.android.support:design:25.1.0'
     //compile 'com.android.support:percent:25.1.0'
     compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'org.jsoup:jsoup:1.10.3'
     compile 'io.reactivex:rxandroid:1.0.1'
     compile ('com.facebook.react:react-native:+')
+    compile 'org.jsoup:jsoup:1.10.3'
     //compile(name:'react-native-0.44.0', ext:'aar')
     // From node_modules
     //compile("com.tencent.tinker:tinker-android-lib:${TINKER_VERSION}") { changing = true }
